@@ -21,10 +21,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Zᴇᴅᴢᴇ ✘")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐓ᴀɪᴛᴀɴ ✘ 𝐌ᴜsɪᴄ")
 
 # Your User ID.
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5301800943").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1362133845").split()))
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
@@ -33,7 +33,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
 # For customized or modified Repository
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/team-katil/zedzemusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/taitangamer/zedzemusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 # GIT TOKEN ( if your edited repo is private)
@@ -113,11 +113,11 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/ff3d94744211c796cf5bb.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/549d249f417be4e31f647.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/07b109ac650e5f4fec9e5.jpg",
+    "https://te.legra.ph/file/549d249f417be4e31f647.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://telegra.ph/file/1dca3157eb1d637846d87.jpg"
@@ -167,9 +167,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/07b109ac650e5f4fec9e5.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/549d249f417be4e31f647.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/ff3d94744211c796cf5bb.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/549d249f417be4e31f647.jpg"
