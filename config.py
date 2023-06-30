@@ -40,8 +40,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/katil_bots")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/katilsupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/taitanoffice")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/world_music_masti")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "5000"))
@@ -113,18 +113,18 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/549d249f417be4e31f647.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/36c9d8f5477ec64ff5f90.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/549d249f417be4e31f647.jpg",
+    "https://te.legra.ph/file/36c9d8f5477ec64ff5f90.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://telegra.ph/file/1dca3157eb1d637846d87.jpg"
 
-GLOBAL_IMG_URL = "https://telegra.ph/file/7dc2e0a1277c1dd43b40e.jpg"
+GLOBAL_IMG_URL = "https://te.legra.ph/file/36c9d8f5477ec64ff5f90.jpg"
 
-STATS_IMG_URL = "https://telegra.ph/file/99b282829d8e877a099a6.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/36c9d8f5477ec64ff5f90.jpg"
 
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/29c8494278f990e910893.jpg"
 
@@ -167,9 +167,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/549d249f417be4e31f647.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/36c9d8f5477ec64ff5f90.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/549d249f417be4e31f647.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/36c9d8f5477ec64ff5f90.jpg"
